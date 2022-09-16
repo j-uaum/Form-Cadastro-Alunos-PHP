@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de alunos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+  <form action="formulario.html"  method = "post"> 
+
+<h1 class="titulo">Cadastro de alunos</h1>
+
+<section class="conteudo">
+
+<div class="div">
+
+    <fieldset class="fieldset">
+
+<label for="matri" class="labels">Matricula:</label>
+    <input type="text" name="matri" class="input">
+</fieldset>
+</div>
+
+<div class="div">
+   <fieldset class="fieldset">
+       <label for="nome" class="labels">Nome:</label>
+    <input type="text" name="nome" class="input">
+</fieldset>
+</div>
+
+<div class="div">
+    <fieldset class="fieldset"> Sexo:
+        <label for="sexo0" class="labels">Feminino</label>
+    <input type="radio" name="sexo0" id="sexo0" checked>
+    <label for="sexo1" class="labels">Masculino</label>
+    <input type="radio" name="sexo1" id="sexo1">
+</fieldset>
+</div>
+<fieldset class="fieldset"> 
+<div class="div">
+    <label for="turno" class="labels">Turno:</label>
+    <select name="turno" id="turno">
+        <option select disabled  value="">Selecione</option>
+        <option value="Manhã">Manhã</option>
+        <option value="Tarde">Tarde</option>
+        <option value="Noite">Noite</option>
+    </select>
+</fieldset>
+</div>
+
+<div class="div">
+<fieldset class="fieldset"> Lazer:
+
+  
+    <input type="checkbox" name="lazer0" class="input">
+    <label for="lazer0" class="labels">Esporte</label>
+    
+    <input type="checkbox" name="lazer1" class="input">
+    <label for="lazer1" class="labels">Musica</label>
+
+    <input type="checkbox" name="lazer2" class="input">  
+      <label for="lazer2" class="labels">Leitura</label>
+
+</fieldset>
+
+</div>
+
+
+<div class="txta" >
+
+<fieldset class="fieldset">
+
+<label for="txtarea">Observações: </label> <br><br>
+<textarea name="txtarea" id="txtarea" cols="30" rows="20" style="text-align:right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque repudiandae dignissimos ipsam sapiente, ratione reiciendis nihil sequi, asperiores eveniet minima amet veritatis perspiciatis sed unde consequatur obcaecati beatae qui?</textarea>
+
+
+
+</fieldset>
+
+
+</div>
+
+<div id="btn">
+    <input type="submit" name="btn" id="button">
+</div>
+
+
+
+
+</section>
+
+
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
